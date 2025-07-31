@@ -1,4 +1,4 @@
-# fcc-js-algorithms-dsa
+# JavaScript Algorithms and Data Structures
 My solutions and notes for freeCodeCamps's JavaScript Algorithms and Data Structures courses.
 (https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/).  
 
