@@ -7,4 +7,4 @@ My solutions and notes for freeCodeCamps's JavaScript Algorithms and Data Struct
 - Project instructions are paraphrased for brevity.  
 
 ## 🎮 Role Playing Game  
-Play the game here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Role-Playing-Game/)  
+Play the game here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Role%20Playing%20Game/)  
