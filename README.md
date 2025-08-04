@@ -6,5 +6,8 @@ My solutions and notes for freeCodeCamps's JavaScript Algorithms and Data Struct
 - Code snippets provided by [freeCodeCamp] (https://www.freecodecamp.org) were modified/completed by me.  
 - Project instructions are paraphrased for brevity.  
 
-## 🎮 Role Playing Game  
+## Role Playing Game  
 Play the game here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Role%20Playing%20Game/)  
+
+## Calorie Counter
+Test the calorie counter here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Calorie%20Counter/)
