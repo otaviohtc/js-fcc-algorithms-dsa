@@ -11,3 +11,6 @@ Play the game here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-ds
 
 ## Calorie Counter
 Test the calorie counter here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Calorie%20Counter/)
+
+## Music Player
+Test the music player here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Music%20Player/)
