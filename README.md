@@ -19,4 +19,4 @@ Test the music player here: [Live Demo](https://otaviohtc.github.io/js-fcc-algor
 Test the palindrome checker here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Palindrome%20Checker)
 
 ## Date Formatter
-Tete the date formatter here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Date%20Formatter)
+Test the date formatter here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Date%20Formatter)
