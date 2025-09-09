@@ -16,4 +16,7 @@ Test the calorie counter here: [Live Demo](https://otaviohtc.github.io/js-fcc-al
 Test the music player here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Music%20Player/)
 
 ## Palindrome Checker
-Test the palindrome checker her: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Palindrome%20Checker)
+Test the palindrome checker here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Palindrome%20Checker)
+
+## Date Formatter
+Tete the date formatter here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Date%20Formatter)
