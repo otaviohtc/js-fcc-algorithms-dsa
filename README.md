@@ -23,3 +23,6 @@ Test the date formatter here: [Live Demo](https://otaviohtc.github.io/js-fcc-alg
 
 ## Football Team Cards
 Test the football team cards here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Football%20Team%20Cards/)
+
+## TODO App
+Test the TODO app here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Todo%20App/)
