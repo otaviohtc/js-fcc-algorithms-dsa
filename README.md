@@ -26,3 +26,6 @@ Test the football team cards here: [Live Demo](https://otaviohtc.github.io/js-fc
 
 ## TODO App
 Test the TODO app here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Todo%20App/)
+
+## Decimal to Binary Converter
+Test the Decimal to Binary Converter app here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Decimal%20to%20Binary%20Converter/)
