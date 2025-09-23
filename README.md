@@ -1,34 +1,26 @@
 # JavaScript Algorithms and Data Structures
-My solutions and notes for freeCodeCamps's JavaScript Algorithms and Data Structures courses.
-(https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/).  
 
-## Attribution  
-- Code snippets provided by [freeCodeCamp] (https://www.freecodecamp.org) were modified/completed by me.  
-- Project instructions are paraphrased for brevity.  
+My solutions and notes for freeCodeCamp's JavaScript Algorithms and Data Structures curriculum.
 
-## Role Playing Game  
-Play the game here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Role%20Playing%20Game/)  
+**Source Curriculum:** [freeCodeCamp JavaScript Course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/)
 
-## Calorie Counter
-Test the calorie counter here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Calorie%20Counter/)
+## Attribution
+- Code snippets provided by [freeCodeCamp](https://www.freecodecamp.org) were modified/completed by me
+- Project instructions are paraphrased for brevity
 
-## Music Player
-Test the music player here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Music%20Player/)
+## Projects
 
-## Palindrome Checker
-Test the palindrome checker here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Palindrome%20Checker/)
+### 🎮 Interactive Applications
+- **Role Playing Game** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Role%20Playing%20Game/)
+- **Music Player** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Music%20Player/)
+- **Football Team Cards** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Football%20Team%20Cards/)
+- **TODO App** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Todo%20App/)
 
-## Date Formatter
-Test the date formatter here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Date%20Formatter/)
+### 🔢 Utility Tools
+- **Calorie Counter** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Calorie%20Counter/)
+- **Date Formatter** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Date%20Formatter/)
+- **Decimal to Binary Converter** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Decimal%20to%20Binary%20Converter/)
 
-## Football Team Cards
-Test the football team cards here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Football%20Team%20Cards/)
-
-## TODO App
-Test the TODO app here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Todo%20App/)
-
-## Decimal to Binary Converter
-Test the Decimal to Binary Converter app here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Decimal%20to%20Binary%20Converter/)
-
-## Roman Numeral Converter
-Test the Roman Numeral Converter app here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Roman%20Numeral%20Converter/)
+### 📊 Algorithm Challenges
+- **Palindrome Checker** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Palindrome%20Checker/)
+- **Roman Numeral Converter** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Roman%20Numeral%20Converter/)
