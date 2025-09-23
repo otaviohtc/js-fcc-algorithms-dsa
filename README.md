@@ -29,3 +29,6 @@ Test the TODO app here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithm
 
 ## Decimal to Binary Converter
 Test the Decimal to Binary Converter app here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Decimal%20to%20Binary%20Converter/)
+
+## Roman Numeral Converter
+Test the Roman Numeral Converter app here: [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Roman%20Numeral%20Converter/)
