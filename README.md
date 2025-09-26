@@ -25,4 +25,4 @@ My solutions and notes for freeCodeCamp's JavaScript Algorithms and Data Structu
 ### 📊 Algorithm Challenges
 - **Palindrome Checker** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Palindrome%20Checker/)
 - **Roman Numeral Converter** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Roman%20Numeral%20Converter/)
-- **Number Sorter - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Number%20Sorter/)
+- **Number Sorter** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Number%20Sorter/)
