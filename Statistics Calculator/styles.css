@@ -133,8 +133,6 @@ button:active {
 dfn {
     font-style: normal;
     color: #888;
-    border-bottom: 1px dotted #555;
-    cursor: help;
 }
 
 span {
