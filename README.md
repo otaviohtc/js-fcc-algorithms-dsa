@@ -22,6 +22,7 @@ My solutions and notes for freeCodeCamp's JavaScript Algorithms and Data Structu
 - **Decimal to Binary Converter** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Decimal%20to%20Binary%20Converter/)
 - **Spam Filter** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Spam%20Filter/)
 - **Statistics Calculator** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Statistics%20Calculator/)
+- **Spreadsheet** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Spreadsheet/)
 
 ### 📊 Algorithm Challenges
 - **Palindrome Checker** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Palindrome%20Checker/)
