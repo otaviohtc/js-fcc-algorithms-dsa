@@ -16,6 +16,7 @@ My solutions and notes for freeCodeCamp's JavaScript Algorithms and Data Structu
 - **Football Team Cards** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Football%20Team%20Cards/)
 - **TODO App** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Todo%20App/)
 - **Shopping Cart** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Shopping%20Cart/)
+- **Platformer Game** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Platformer%20Game/)
 
 ### 🔢 Utility Tools
 - **Calorie Counter** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Calorie%20Counter/)
