@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 100%);
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
     color: #e0e0e0;
     line-height: 1.6;
     min-height: 100vh;
@@ -17,342 +17,245 @@ body {
 /* Header styles */
 header {
     text-align: center;
-    margin-bottom: 40px;
-    padding: 30px 20px;
-    background: rgba(30, 30, 30, 0.8);
-    border-radius: 15px;
-    border: 1px solid #333;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
 }
 
 h1 {
-    font-size: 2.8rem;
-    font-weight: 300;
-    background: linear-gradient(135deg, #fff 0%, #aaa 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 20px;
-    letter-spacing: 2px;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+}
+
+/* Button styles */
+.btn {
+    background: linear-gradient(to bottom, #555 0%, #333 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 5px;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #666 0%, #444 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Rules container */
 .rules-container {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
-    background: rgba(40, 40, 40, 0.9);
-    border-radius: 10px;
-    margin-top: 20px;
-    padding: 0 25px;
-    border-left: 3px solid #555;
-}
-
-.rules-container.show {
-    max-height: 1000px;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 25px;
+    background: #2a2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    display: none;
+    border-left: 4px solid #555;
 }
 
 .rules-container h2 {
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 15px;
-    font-weight: 400;
-    font-size: 1.4rem;
+    padding-bottom: 10px;
     border-bottom: 1px solid #444;
-    padding-bottom: 8px;
 }
 
 .rules-container ul {
-    list-style: none;
-    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .rules-container li {
-    padding: 8px 0;
-    padding-left: 20px;
-    position: relative;
-    color: #ccc;
-}
-
-.rules-container li:before {
-    content: "•";
-    color: #888;
-    position: absolute;
-    left: 0;
+    margin-bottom: 8px;
 }
 
 .points {
     margin-top: 25px;
 }
 
-/* Main content */
+/* Main game area */
 main {
-    display: grid;
-    grid-template-columns: 1fr 300px;
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* Dice container */
+#game {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    background: #2a2a2a;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Dice styles */
 #dice {
     display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin: 30px 0;
+    justify-content: space-between;
+    margin-bottom: 25px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .die {
-    width: 70px;
-    height: 70px;
-    background: #2a2a2a;
-    border: 2px solid #444;
-    border-radius: 12px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(145deg, #f0f0f0, #c9c9c9);
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    color: #fff;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
+    color: #222;
+    box-shadow:
+        inset 0 2px 4px rgba(255, 255, 255, 0.6),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.2),
+        0 3px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
 }
 
-.die:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg, transparent 0%, rgba(255, 255, 255, 0.1) 100%);
-    border-radius: 10px;
-}
-
-.die.rolling {
-    animation: roll 0.5s ease-in-out;
-}
-
-@keyframes roll {
-    0% {
-        transform: rotate(0deg) scale(1);
-    }
-
-    50% {
-        transform: rotate(180deg) scale(1.1);
-    }
-
-    100% {
-        transform: rotate(360deg) scale(1);
-    }
+.die:hover {
+    transform: scale(1.05);
 }
 
 /* Rounds text */
 .rounds-text {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 1.1rem;
-    color: #bbb;
-    background: rgba(40, 40, 40, 0.6);
+    margin-bottom: 20px;
     padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #333;
-}
-
-.rounds-text strong {
-    color: #fff;
+    background: #333;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.1rem;
 }
 
 /* Score options */
 #score-options {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 12px;
-    margin: 25px 0;
+    margin-bottom: 25px;
 }
 
-#score-options>div {
-    position: relative;
+#score-options div {
+    margin-bottom: 12px;
+    padding: 12px;
+    background: #333;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+#score-options div:hover {
+    background: #3a3a3a;
 }
 
 #score-options input[type="radio"] {
-    display: none;
+    margin-right: 10px;
+    transform: scale(1.2);
 }
 
 #score-options label {
-    display: block;
-    padding: 15px 20px;
-    background: rgba(50, 50, 50, 0.7);
-    border: 2px solid #444;
-    border-radius: 10px;
     cursor: pointer;
-    transition: all 0.3s ease;
-    color: #999;
-    font-weight: 500;
-}
-
-#score-options input[type="radio"]:checked+label {
-    background: rgba(80, 80, 80, 0.9);
-    border-color: #888;
-    color: #fff;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-}
-
-#score-options input[type="radio"]:enabled+label {
-    cursor: pointer;
-    color: #ccc;
-}
-
-#score-options input[type="radio"]:enabled+label:hover {
-    background: rgba(70, 70, 70, 0.8);
-    border-color: #666;
-}
-
-#score-options label span {
-    float: right;
-    font-weight: normal;
-    color: #888;
-}
-
-/* Buttons */
-.btn {
-    background: linear-gradient(135deg, #333 0%, #555 100%);
-    color: #fff;
-    border: none;
-    padding: 15px 30px;
     font-size: 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    margin: 10px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
 }
 
-.btn:hover {
-    background: linear-gradient(135deg, #444 0%, #666 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+#score-options span {
+    margin-left: 5px;
+    color: #aaa;
 }
 
-.btn:active {
-    transform: translateY(0);
-}
-
-.btn:disabled {
-    background: #2a2a2a;
-    color: #666;
-    cursor: not-allowed;
-    transform: none;
-    box-shadow: none;
-}
-
-#rules-btn {
-    background: linear-gradient(135deg, #444 0%, #666 100%);
-}
-
-#roll-dice-btn {
-    background: linear-gradient(135deg, #555 0%, #777 100%);
-}
-
-#keep-score-btn {
-    background: linear-gradient(135deg, #666 0%, #888 100%);
-}
-
-/* Form layout */
-#game {
-    background: rgba(30, 30, 30, 0.8);
-    padding: 30px;
-    border-radius: 15px;
-    border: 1px solid #333;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    text-align: center;
+/* Game buttons container */
+#game .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
 }
 
 /* Scores section */
 #scores {
-    background: rgba(30, 30, 30, 0.8);
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    background: #2a2a2a;
     padding: 25px;
-    border-radius: 15px;
-    border: 1px solid #333;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     height: fit-content;
 }
 
 #scores h3 {
-    color: #fff;
-    margin-bottom: 20px;
-    font-weight: 400;
-    font-size: 1.3rem;
-    border-bottom: 1px solid #444;
+    color: #ffffff;
+    margin-bottom: 15px;
     padding-bottom: 10px;
-}
-
-#total-score {
-    color: #fff;
-    font-weight: 600;
+    border-bottom: 1px solid #444;
 }
 
 #score-history {
-    list-style: none;
-    counter-reset: score-counter;
+    margin-left: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
 }
 
 #score-history li {
-    padding: 12px 15px;
     margin-bottom: 8px;
-    background: rgba(50, 50, 50, 0.6);
-    border-radius: 8px;
-    border-left: 4px solid #666;
-    counter-increment: score-counter;
-    position: relative;
-    padding-left: 45px;
+    padding: 8px;
+    background: #333;
+    border-radius: 4px;
+    transition: background 0.3s ease;
 }
 
-#score-history li:before {
-    content: "Round " counter(score-counter);
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #888;
-    font-size: 0.9rem;
-    font-weight: 500;
+#score-history li:hover {
+    background: #3a3a3a;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2a2a2a;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
     main {
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
-    #dice {
-        gap: 10px;
-    }
-
-    .die {
-        width: 60px;
-        height: 60px;
-        font-size: 1.7rem;
-    }
-
-    h1 {
-        font-size: 2.2rem;
-    }
-
-    #score-options {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        padding: 10px;
+    #game,
+    #scores {
+        max-width: 100%;
     }
 
     .die {
@@ -362,12 +265,33 @@ main {
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
+    }
+}
+
+/* Animation for dice rolling */
+@keyframes roll {
+    0% {
+        transform: rotate(0deg);
     }
 
-    #game,
-    #scores,
-    header {
-        padding: 20px 15px;
+    25% {
+        transform: rotate(90deg);
     }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rolling {
+    animation: roll 0.5s ease-in-out;
 }
