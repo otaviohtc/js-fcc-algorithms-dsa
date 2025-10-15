@@ -31,6 +31,7 @@ My solutions and notes for freeCodeCamp's JavaScript Algorithms and Data Structu
 - **Spreadsheet** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Spreadsheet/)
 - **Telephone Number Validator** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Telephone%20Number%20Validator/)
 - **Cash Register** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/Cash%20Register/)
+- **fCC Authors Page** - [Live Demo](https://otaviohtc.github.io/js-fcc-algorithms-dsa/fCC%20Authors%20Page/)
 
 ### 📊 Algorithm Challenges
 
